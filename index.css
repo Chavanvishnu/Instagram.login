@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.space {
+    margin-right: 25px;
+}
+
+/* Main Section */
+#main {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+#main .area-holder1 {
+    height: 100%;
+    width: 100%;
+    max-width: 370px;
+    overflow:hidden;
+    display: flex;
+}
+
+.holder {
+    position: relative;
+}
+
+.banner {
+    margin-top: 20px;
+    width: 370px;
+}
+#main .area-holder2 {
+    height: 100%;
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+
+}
+
+/* Main Section */
+
+
+
+
+/* Form Section */
+#main .form {
+    min-height: auto;
+    margin: 5px;
+    border: 1px solid rgba(219, 219, 219, 0.914);
+}
+
+/* Form Section */
+
+/* logo Section */
+
+#main .logo {
+    margin: 40px;
+    margin-left:60px;
+    margin-right:60px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+#main .insta-logo{
+    width:150px;
+}
+
+/* logo Section */
+
+/* Sign-in-form */
+#main .sign-in-form {
+    font-size: 20px;
+}
+
+.log-id,
+.log-pass,
+.log-in-button {
+    height: 45px;
+}
+
+.log-id,
+.log-pass,
+.log-in-button,
+input {
+    margin: 0 auto;
+}
+
+.log-in-button {
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border: 1px solid rgba(219, 219, 219, 0.914);
+    color: rgba(219, 219, 219, 0.914);
+}
+
+.log-btn {
+    border: none;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: rgb(54, 187, 239);
+    color: white;
+}
+
+.or {
+    padding: px;
+    padding-bottom: 0px;
+    font-size: 10px;
+}
+
+#main .facebook {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+#main .facebook2 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(50, 50, 131);
+}
+#main .facebook-logo{
+    width: 23px;
+    margin-top: 10px;
+}
+#main .f-pass {
+    padding-bottom: 20px;
+}
+
+#main .f-pass2 {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(74, 61, 61);
+    font-size: 12px;
+}
+
+/* Sign-in-form */
+
+
+
+/* Sign-up section */
+#main .sign-up-form {
+    padding: 8px;
+    min-height: auto;
+    margin: 5px;
+    border: 1px solid rgba(219, 219, 219, 0.914);
+}
+
+#main .sign-up {
+    text-decoration: none;
+    color: rgb(54, 187, 239);
+}
+
+/* Sign-up section */
+
+/* App Store Section */
+
+#main .app-store {
+    min-height: auto;
+    margin: 5px;
+    margin-bottom: 0px;
+
+}
+#main .app-store, p{
+    margin: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#main .store-logo{
+    display:inline;
+    margin:2px;
+    margin-left:5px;
+    margin-right:10px;
+}
+#main .google-logo{
+    width: 105px;
+}
+#main .microsoft-logo{
+    width: 85px;
+}
+
+/* App Store Section */
+
+
+
+/* Main Section End's */
+
+
+
+/* Footer Section Start's */
+
+
+#footer{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 13px;
+}
+#footer .foot-container{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+#footer .sec-1{
+    margin: 10px;
+}
+#footer .divs{
+    display: inline-block;
+    align-items:stretch;
+    margin: 3px;
+    
+}
+#footer .divs a{
+    text-decoration: none;
+    color:rgb(164, 158, 158);
+}
+#footer .sec-2{
+    color: rgb(164, 158, 158);
+}
+
+
+/* Footer Section Ens's */
+
+
+
+
+/* Media Section */
+
+@media (max-width: 874px) {
+    .area-holder1 {
+        display: none;
+    }
+    .space{
+        display: none;
+    }
+}
+@media (max-width: 450px){
+    #main .form{
+        border: 0px;
+    }
+    #main .sign-up-form{
+        border: 0px;
+    }
+}
